@@ -55,8 +55,8 @@ hr {
 }
 
 .tm-site-header {
-    margin-top: 50px;
-    margin-bottom: 115px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .tm-site-logo {
@@ -365,7 +365,7 @@ figcaption { line-height: 1.4; }
 .tm-mb-45 { margin-bottom: 45px; }
 .tm-mb-55 { margin-bottom: 55px; }
 .tm-mb-60 { margin-bottom: 60px; }
-.tm-mb-65 { margin-bottom: 65px; }
+.tm-mb-65 { margin-bottom: 50px; }
 .tm-mb-75 { margin-bottom: 75px; }
 .tm-mb-80 { margin-bottom: 80px; }
 .tm-mb-120 { margin-bottom: 120px; }
