@@ -1293,7 +1293,7 @@ input, select, textarea {
 			#header > :first-child:before {
 				display: none;
 			}
-
+/*
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
@@ -1306,6 +1306,7 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 
+*/
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
@@ -1444,12 +1445,14 @@ input, select, textarea {
 					height: calc(2rem + 1px);
 				}
 
+		/*
 			#header .logo {
 				width: 4.75rem;
 				height: 4.75rem;
 				line-height: 4.75rem;
 			}
 
+			*/
 				#header .logo .icon:before {
 					font-size: 1.75rem;
 				}
