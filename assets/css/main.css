@@ -375,7 +375,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #a52222;
+		color: #000000;
 		display: block;
 		font-size: 0.8rem;
 		font-weight: 300;
@@ -427,7 +427,7 @@ input, select, textarea {
 		textarea:focus {
 			background: rgba(255, 255, 255, 0.075);
 			border-color: #000000;
-			box-shadow: 0 0 0 1px #9c3434;
+			box-shadow: 0 0 0 1px #7d7d7d;
 		}
 
 	select {
@@ -441,7 +441,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #c24545;
+			color: #000000;
 			background: #1b1f22;
 		}
 
@@ -485,7 +485,7 @@ input, select, textarea {
 			-webkit-user-select: none;
 			-ms-user-select: none;
 			user-select: none;
-			color: #a10000;
+			color: #000000;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 0.8rem;
@@ -1078,8 +1078,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #000000;
-			color: #1b1f22 !important;
+			background-color: #ffffff;
+			color: #000000 !important;
 			font-weight: 600;
 		}
 
