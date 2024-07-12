@@ -375,7 +375,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #a52222;
 		display: block;
 		font-size: 0.8rem;
 		font-weight: 300;
@@ -427,7 +427,7 @@ input, select, textarea {
 		textarea:focus {
 			background: rgba(255, 255, 255, 0.075);
 			border-color: #000000;
-			box-shadow: 0 0 0 1px #ffffff;
+			box-shadow: 0 0 0 1px #9c3434;
 		}
 
 	select {
@@ -441,7 +441,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #ffffff;
+			color: #c24545;
 			background: #1b1f22;
 		}
 
@@ -485,7 +485,7 @@ input, select, textarea {
 			-webkit-user-select: none;
 			-ms-user-select: none;
 			user-select: none;
-			color: #ffffff;
+			color: #a10000;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 0.8rem;
@@ -1557,9 +1557,9 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(255, 255, 255, 0.85);
 			border-radius: 4px;
-			opacity: 0;
+			opacity: 1;
 		}
 
 			#main article.active {
@@ -1581,6 +1581,7 @@ input, select, textarea {
 				text-indent: 4rem;
 				overflow: hidden;
 				white-space: nowrap;
+				color: #000000;
 			}
 
 				#main article .close:before {
@@ -1597,16 +1598,16 @@ input, select, textarea {
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
-					background-size: 20px 20px;
-					background-repeat: no-repeat;
+					
 				}
 
 				#main article .close:hover:before {
+					color: #000000;
 					background-color: rgba(255, 255, 255, 0.075);
 				}
 
 				#main article .close:active:before {
+					color: #000000;
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
@@ -1622,6 +1623,7 @@ input, select, textarea {
 					width: 2.25rem;
 					height: 2.25rem;
 					background-size: 14px 14px;
+					color: #000000;
 				}
 
 		}
@@ -1708,7 +1710,7 @@ input, select, textarea {
 			height: 100vh;
 			top: 0;
 			left: 0;
-			background: #ffffff;
+			background: hwb(47 95% 0%);
 			overflow: hidden;
 		}
 		
@@ -1825,3 +1827,103 @@ input, select, textarea {
 			box-shadow: -92vmin 0 11.716867003027163vmin currentColor;
 		}
 		
+
+		body {
+			margin: 50px;
+			font-family: helvetica, sans-serif;
+			background: #e9f0f4;
+		}
+		
+		#wrap {
+			margin: 20px auto;
+			text-align: center;
+		}
+		
+		.btn-slide2 {
+			position: relative;
+			display: inline-block;
+			height: 50px;
+			width: 200px;
+			line-height: 50px;
+			padding: 0;
+			border-radius: 50px;
+			background: #fdfdfd;
+			border: 2px solid #0099cc;
+			margin: 10px;
+			transition: .5s;
+		}
+		
+		.btn-slide2 {
+			border: 2px solid #efa666;
+		}
+
+		.btn-slide2:hover {
+			background-color: #efa666;
+		}
+		
+		.btn-slide2:hover span.circle2 {
+			left: 100%;
+			margin-left: -45px;
+			background-color: #fdfdfd;
+			color: #0099cc;
+		}
+		
+		.btn-slide2:hover span.circle2 {
+			color: #efa666;
+		}
+		
+		.btn-slide2:hover span.title2 {
+			left: 40px;
+			opacity: 0;
+		}
+		
+		.btn-slide2:hover span.title-hover2 {
+			opacity: 1;
+			left: 40px;
+		}
+		
+		.btn-slide2 span.circle2 {
+			display: block;
+			background-color: #0099cc;
+			color: #fff;
+			position: absolute;
+			float: left;
+			margin: 5px;
+			line-height: 42px;
+			height: 40px;
+			width: 40px;
+			top: 0;
+			left: 0;
+			transition: .5s;
+			border-radius: 50%;
+		}
+		
+		.btn-slide2 span.circle2 {
+			background-color: #efa666;
+		}
+		
+		.btn-slide2 span.title2, .btn-slide2 span.title-hover2 {
+			position: absolute;
+			left: 90px;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 16px;
+			font-weight: bold;
+			color: #30abd5;
+			transition: .5s;
+		}
+		
+		.btn-slide2 span.title2,
+		  .btn-slide2 span.title-hover2 {
+			color: #efa666;
+			left: 80px;
+		  }
+		
+		.btn-slide2 span.title-hover2 {
+			left: 80px;
+			opacity: 0;
+		}
+		
+		.btn-slide2 span.title-hover2 {
+			color: #fff;
+		}
